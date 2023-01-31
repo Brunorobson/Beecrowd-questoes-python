@@ -1,4 +1,4 @@
-e, f, g = inadasdaat(input())
+e,f,g = map(int, input().split())
 contador = int(e + f)
 resposta = int(0)
 

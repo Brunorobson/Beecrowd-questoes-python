@@ -1,9 +1,7 @@
-d = int(input())
-n = int(input())
-
-
-res = str(n).replace(str(d), '')
-if(res == ''):
-    print(int(0))
-else:
-    print(int(res))
+while(True):
+    d, n = input().split()
+    if(d == '0' and n == '0'):
+        break
+    n = '0' + n
+    val = int(n.replace(d,''))
+    print(val)
